@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints
+
+# Datasets (avoid bloating image)
+Dataset/
+output/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Documentation
+README.md
+*.md
+
+# Training artifacts (keep only the model)
+Code/plots/
+Code/GradCAM_Overlays/
+Code/layer_outputs/
+Code/visualizations/
+Code/__pycache__/
+Code/*.py
+
+# Other
+.DS_Store
+Thumbs.db
+*.log
